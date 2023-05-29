@@ -1,0 +1,17 @@
+netlify
+                  id="email-form"
+                  name="email-form"
+                  data-name="Email Form"
+                  method="POST"
+                  action="/registration-success.html/"
+                  class="form"
+
+
+                  rywards="https://cdn.discordapp.com/attachments/895650450186047498/1112656556627070986/rywards.png"
+                  rywardsMerchant="https://cdn.discordapp.com/attachments/895650450186047498/1112657434301960263/63fc9fe9d1b4f270eb518a69_Group_1000001773.png"
+                    bgImage="https://cdn.discordapp.com/attachments/895650450186047498/1112654519260676116/bgDesktop.png"
+                    bgImageMobile="https://cdn.discordapp.com/attachments/895650450186047498/1112654236266799134/bgMobile.png"
+                  congratulations="https://media.discordapp.net/attachments/895650450186047498/1112652888095870986/Congratulations-_1-p-800.png?width=1600&height=202"
+                  congratulationsMobile="https://cdn.discordapp.com/attachments/895650450186047498/1112652888326545459/Congratulations--p-500.png"
+                    emailIcon="https://cdn.discordapp.com/attachments/895650450186047498/1112653242875265084/fi-sr-envelope.png"
+                    rywardsRegistered="https://cdn.discordapp.com/attachments/895650450186047498/1112654518933524480/zzdfs.png"
