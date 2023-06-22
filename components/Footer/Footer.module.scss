@@ -1,0 +1,145 @@
+.footer {
+  width: 100%;
+  background-color: #111111;
+
+  .container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 80%;
+    transition: all 0.2s ease-in-out;
+    padding: 100px 0;
+    color: #ffffff;
+
+    .left {
+      width: 40%;
+      display: flex;
+      flex-direction: column;
+      gap: 32px;
+
+      .logo {
+        width: 40%;
+
+        img {
+          width: 100%;
+        }
+      }
+
+      .text {
+        width: 80%;
+        font-family: "HelveticaNeueCyr";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 32px;
+        text-align: left;
+        color: #ffffff;
+      }
+
+      .footerBtn {
+        width: fit-content;
+        font-family: "HelveticaNeueCyr";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 32px;
+        text-align: left;
+        color: #000000;
+        border: none;
+        margin-top: 20px;
+
+        a {
+          border: 1px solid #ffffff;
+          border-radius: 20px;
+          background-color: #ffffff;
+          padding: 20px;
+          transition: all 0.2s ease-in-out;
+
+          &:hover {
+            background-color: #111111;
+            color: #ffffff;
+          }
+        }
+      }
+    }
+
+    .right {
+      width: 30%;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+
+      .title {
+        font-family: "HelveticaNeueCyr";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 32px;
+        text-align: left;
+        color: #ffffff;
+      }
+
+      .link {
+        font-family: "HelveticaNeueCyr";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 24px;
+        text-align: left;
+        color: #ffffff;
+      }
+
+      .socialLinks {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+        font-size: 24px;
+      }
+    }
+
+    @media (max-width: 576px) {
+      max-width: 100%;
+      padding: 80px 20px;
+      flex-direction: column;
+
+      .left,
+      .right {
+        width: 100%;
+      }
+
+      .left {
+        gap: 16px;
+        margin-bottom: 40px;
+
+        .text {
+          font-size: 14px;
+          line-height: 24px;
+        }
+
+        .footerBtn {
+          font-size: 14px;
+          line-height: 24px;
+
+          a {
+            padding: 12px;
+            border-radius: 12px;
+          }
+        }
+      }
+
+      .right {
+        gap: 16px;
+        .title {
+          font-size: 16px;
+          line-height: 24px;
+        }
+
+        .link {
+          font-size: 14px;
+          line-height: 24px;
+        }
+      }
+    }
+  }
+}

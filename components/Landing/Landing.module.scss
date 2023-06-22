@@ -1,0 +1,116 @@
+.landing {
+  width: 100%;
+  margin-top: 200px;
+
+  @media (max-width: 992px) {
+    height: auto;
+    margin-top: 160px;
+  }
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    margin: 0 auto;
+    max-width: 90%;
+    transition: all 0.2s ease-in-out;
+
+    @media (max-width: 992px) {
+      gap: 24px;
+    }
+
+    @media (max-width: 576px) {
+      max-width: 100%;
+      padding: 0px 20px;
+    }
+
+    .landingText {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 36px;
+      width: 100%;
+
+      .landingTitle {
+        font-family: "HelveticaNeueCyr";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 88px;
+        text-align: center;
+        color: #000000;
+
+        @media (max-width: 992px) {
+          font-size: 64px;
+        }
+
+        @media (max-width: 576px) {
+          font-size: 40px;
+        }
+      }
+
+      .landingSubtitle {
+        width: 50%;
+        font-family: "HelveticaNeueCyr";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 28px;
+        line-height: 48px;
+        text-align: center;
+        color: #000000;
+
+        @media (max-width: 992px) {
+          width: 80%;
+          font-size: 24px;
+          line-height: 40px;
+        }
+
+        @media (max-width: 576px) {
+          width: 100%;
+          font-size: 18px;
+          line-height: 32px;
+        }
+      }
+
+      .landingButton {
+        font-family: "HelveticaNeueCyr";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 48px;
+        text-align: center;
+        color: #ffffff;
+        background-color: #5a3cdb;
+        border-radius: 32px;
+        padding: 16px 40px;
+        border: none;
+
+        @media (max-width: 992px) {
+          font-size: 24px;
+          line-height: 40px;
+        }
+
+        @media (max-width: 576px) {
+          font-size: 18px;
+          line-height: 32px;
+        }
+      }
+    }
+
+    .landingImage {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-self: center;
+
+      img {
+        width: 100%;
+
+        @media (max-width: 992px) {
+          width: 120%;
+        }
+      }
+    }
+  }
+}
