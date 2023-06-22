@@ -15,7 +15,7 @@ export default function Points({}: PointsProps) {
             <br />
             <span>rywards points</span>
           </p>
-          <div className={styles.pointsSubtitle}>
+          <div className={styles.pointsSubtitle} id="Download">
             <p>Multiple earning options, numerous redeeming options</p>
             <p className={styles.text}>
               Collect from outlets and convert them into gift cards of your

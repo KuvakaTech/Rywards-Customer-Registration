@@ -25,7 +25,7 @@ export default function Footer({}: FooterProps) {
             outlets.
           </div>
           <button className={styles.footerBtn}>
-            <Link href="/" passHref>
+            <Link href="#Download" passHref>
               Get Started
             </Link>
           </button>
@@ -44,22 +44,22 @@ export default function Footer({}: FooterProps) {
           </div>
           <div className={styles.socialLinks}>
             <div className={styles.socialLink}>
-              <Link href="/" passHref>
+              <Link href="https://www.linkedin.com/company/rywards" passHref>
                 <BsLinkedin />
               </Link>
             </div>
             <div className={styles.socialLink}>
-              <Link href="/" passHref>
+              <Link href="https://www.instagram.com/rywardsapp/" passHref>
                 <BsInstagram />
               </Link>
             </div>
             <div className={styles.socialLink}>
-              <Link href="/" passHref>
+              <Link href="https://twitter.com/rywardsapp" passHref>
                 <BsTwitter />
               </Link>
             </div>
             <div className={styles.socialLink}>
-              <Link href="/" passHref>
+              <Link href="mailto:contact@rywards.com" passHref>
                 <BsFillEnvelopeFill />
               </Link>
             </div>
