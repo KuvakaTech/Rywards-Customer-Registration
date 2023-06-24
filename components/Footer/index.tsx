@@ -25,7 +25,7 @@ export default function Footer({}: FooterProps) {
             outlets.
           </div>
           <button className={styles.footerBtn}>
-            <Link href="#Download" passHref>
+            <Link href="/" passHref>
               Get Started
             </Link>
           </button>
