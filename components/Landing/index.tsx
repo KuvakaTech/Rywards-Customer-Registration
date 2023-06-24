@@ -1,7 +1,6 @@
 "use client";
 
 import styles from "./Landing.module.scss";
-import Link from "next/link";
 
 type LandingProps = {};
 
@@ -26,13 +25,11 @@ export default function Landing({}: LandingProps) {
             into real gift cards!
           </p>
           <button className={styles.landingButton} onClick={scrollDown}>
-            <Link href="/" passHref>
-              Download Now
-            </Link>
+            Download Now
           </button>
         </div>
         <div className={styles.landingImage}>
-          <img src="Landing.png" alt="Landing" />
+          <img src="Landing.png" alt="Landing" loading="lazy" />
         </div>
       </div>
     </div>

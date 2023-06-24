@@ -35,11 +35,11 @@ export default function Points({}: PointsProps) {
           </div>
         </div>
         <div className={styles.pointsImage}>
-          <img src="Points.png" alt="Points" />
+          <img src="Points.png" alt="Points" loading="lazy" />
         </div>
       </div>
       <div className={styles.AppScreen}>
-        <img src="AppScreen.png" alt="App Screen" />
+        <img src="AppScreen.png" alt="App Screen" loading="lazy" />
       </div>
     </div>
   );
