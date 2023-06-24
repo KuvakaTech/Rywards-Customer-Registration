@@ -1,0 +1,93 @@
+.container {
+  width: 50%;
+
+  .form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 14px;
+
+    .nameContainer {
+      display: flex;
+      gap: 14px;
+      width: 100%;
+
+      .nameInput {
+        width: 100%;
+        border: none;
+        border-radius: 8px;
+        padding: 12px 16px;
+        background-color: #eeeeee;
+
+        font-family: "HelveticaNeueCyr";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 18px;
+        color: #6b6b6b;
+
+        &:focus {
+          outline: 1px solid #000000;
+          color: #000000;
+        }
+      }
+    }
+
+    .input {
+      width: 100%;
+      border: none;
+      border-radius: 8px;
+      padding: 12px 16px;
+      background-color: #eeeeee;
+
+      font-family: "HelveticaNeueCyr";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 18px;
+      color: #6b6b6b;
+
+      &:focus {
+        outline: 1px solid #000000;
+        color: #000000;
+      }
+    }
+
+    .submitBtn {
+      width: 100%;
+      border: none;
+      border-radius: 8px;
+      padding: 16px;
+      background-color: #000000;
+      cursor: pointer;
+      transition: all 0.2s ease-in-out;
+
+      font-family: "HelveticaNeueCyr";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 18px;
+      color: #ffffff;
+
+      &:hover {
+        background-color: #333;
+      }
+
+      &:active {
+        background-color: #111111;
+      }
+    }
+  }
+
+  @media (max-width: 992px) {
+    width: 100%;
+
+    .form {
+      gap: 10px;
+
+      .nameContainer {
+        gap: 10px;
+      }
+    }
+  }
+}

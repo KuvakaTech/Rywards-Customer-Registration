@@ -1,0 +1,184 @@
+.main {
+  min-height: 100vh;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .thanks {
+    min-height: 100vh;
+    width: 100%;
+    color: black;
+
+    @media (max-width: 992px) {
+      height: auto;
+    }
+
+    .container {
+      display: flex;
+      align-items: flex-start;
+      flex-direction: column;
+      gap: 20px;
+      margin: 0 auto;
+      max-width: 90%;
+      transition: all 0.2s ease-in-out;
+      padding: 120px 0;
+
+      @media (max-width: 1700px) {
+        padding: 140px 0;
+      }
+
+      @media (max-width: 576px) {
+        max-width: 100%;
+        padding: 120px 20px;
+      }
+
+      .title {
+        font-family: "HelveticaNeueCyr";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        color: #000000;
+        line-height: 48px;
+
+        @media (max-width: 992px) {
+          font-size: 36px;
+          line-height: 36px;
+        }
+      }
+
+      .thanksContainer {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: flex-start;
+
+        .left {
+          width: 50%;
+          display: flex;
+          flex-direction: column;
+          gap: 20px;
+
+          .image {
+            width: 100%;
+
+            img {
+              width: 80%;
+              border-radius: 40px 40px 0 0;
+              box-shadow: -4px 4px 8px rgba(0, 0, 0, 0.1);
+            }
+          }
+
+          .subtitle {
+            font-family: "HelveticaNeueCyr";
+            font-style: italic;
+            font-weight: 400;
+            font-size: 28px;
+            line-height: 28px;
+            color: #000000;
+
+            @media (max-width: 576px) {
+              font-size: 20px;
+              line-height: 20px;
+            }
+          }
+        }
+
+        .thankYou {
+          width: 50%;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: flex-start;
+          flex-shrink: 0;
+          align-self: stretch;
+          gap: 20px;
+          padding-bottom: 64px;
+
+          .thankYouTitle {
+            font-family: "HelveticaNeueCyr";
+            font-style: normal;
+            font-weight: 700;
+            font-size: 40px;
+            color: #000000;
+            line-height: 40px;
+
+            @media (max-width: 992px) {
+              font-size: 32px;
+              line-height: 32px;
+            }
+          }
+
+          .thankYouSubtitle {
+            font-family: "HelveticaNeueCyr";
+            font-style: italic;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 24px;
+            color: #000000;
+
+            @media (max-width: 576px) {
+              font-size: 16px;
+              line-height: 16px;
+            }
+          }
+
+          .footerBtn {
+            width: fit-content;
+            font-family: "HelveticaNeueCyr";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 32px;
+            text-align: left;
+            color: #ffffff;
+            border: none;
+            margin-top: 20px;
+
+            a {
+              border: 1px solid #000000;
+              border-radius: 12px;
+              background-color: #000000;
+              padding: 16px;
+              transition: all 0.2s ease-in-out;
+
+              &:hover {
+                background-color: #333;
+              }
+
+              &:active {
+                background-color: #111111;
+              }
+            }
+
+            @media (max-width: 576px) {
+              font-size: 14px;
+              line-height: 24px;
+
+              a {
+                padding: 12px;
+                border-radius: 12px;
+              }
+            }
+          }
+        }
+
+        @media (max-width: 992px) {
+          flex-direction: column;
+          align-items: center;
+          gap: 40px;
+
+          .left {
+            width: 100%;
+
+            .image {
+              img {
+                width: 50%;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

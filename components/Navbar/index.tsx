@@ -20,12 +20,12 @@ export default function Navbar({}: NavbarProps) {
         <div className={open ? styles.navbarCollapse : styles.navbarMenu}>
           <div className={styles.navbarLinks}>
             <div className={styles.navbarButton}>
-              <Link href="/" passHref>
+              <Link href="/Contact" passHref>
                 Contact Us
               </Link>
             </div>
             <div className={styles.navbarLink}>
-              <Link href="/" passHref>
+              <Link href="https://merchant.rywards.com/" passHref>
                 For Business
               </Link>
             </div>
