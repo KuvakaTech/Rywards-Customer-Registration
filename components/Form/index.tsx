@@ -12,11 +12,7 @@ export default function Form({}: FormProps) {
         method="POST"
         className={styles.form}
       >
-        {/* <input
-          type="hidden"
-          name="_cc"
-          value="another@email.com, yetanother@email.com"
-        /> */}
+        <input type="hidden" name="_cc" value="ps@rywards.com" />
         <input
           type="hidden"
           name="_next"
