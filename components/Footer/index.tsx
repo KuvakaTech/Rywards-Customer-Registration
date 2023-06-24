@@ -38,7 +38,7 @@ export default function Footer({}: FooterProps) {
             </Link>
           </div>
           <div className={styles.link}>
-            <Link href="/" passHref>
+            <Link href="https://merchant.rywards.com/" passHref>
               For Merchant
             </Link>
           </div>

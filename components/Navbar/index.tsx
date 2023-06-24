@@ -20,7 +20,7 @@ export default function Navbar({}: NavbarProps) {
         <div className={open ? styles.navbarCollapse : styles.navbarMenu}>
           <div className={styles.navbarLinks}>
             <div className={styles.navbarButton}>
-              <Link href="#Contact" passHref>
+              <Link href="/" passHref>
                 Contact Us
               </Link>
             </div>

@@ -25,10 +25,10 @@ export default function Points({}: PointsProps) {
           <div className={styles.pointsLink}>
             For more info, download the app
             <div className={styles.appLinks}>
-              <Link href="/">
+              <Link href="https://apps.apple.com/in/app/rywards/id6449620229">
                 <img src="AppStore.png" alt="App Store Link" />
               </Link>
-              <Link href="/">
+              <Link href="https://play.google.com/store/apps/details?id=com.rywards.rywardsCustomerApp">
                 <img src="PlayStore.png" alt="Play Store Link" />
               </Link>
             </div>
