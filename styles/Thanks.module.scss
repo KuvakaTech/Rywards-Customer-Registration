@@ -107,6 +107,10 @@
               font-size: 32px;
               line-height: 32px;
             }
+
+            @media (max-width: 576px) {
+              font-size: 24px;
+            }
           }
 
           .thankYouSubtitle {
@@ -180,6 +184,7 @@
 
           .thankYou {
             width: 100%;
+            gap: 12px;
           }
         }
       }
