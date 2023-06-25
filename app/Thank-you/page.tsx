@@ -28,7 +28,7 @@ export default function Thanks() {
             <div className={styles.thanksContainer}>
               <div className={styles.left}>
                 <div className={styles.image}>
-                  <img src="Contact.png" alt="Contact" />
+                  <img src="Contact.png" alt="Contact" loading="lazy" />
                 </div>
                 <div className={styles.subtitle}>Make life rewarding</div>
               </div>

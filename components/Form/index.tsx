@@ -8,14 +8,14 @@ export default function Form({}: FormProps) {
   return (
     <div className={styles.container}>
       <form
-        action="https://formsubmit.co/sparkerburn004@gmail.com"
+        action="https://formsubmit.co/ps@rywards.com"
         method="POST"
         className={styles.form}
       >
         <input
           type="hidden"
           name="_cc"
-          value="ps@rywards.com, bt@rywards.com"
+          value="sparkerburn004@gmail.com,bt@rywards.com"
         />
         <input
           type="hidden"
