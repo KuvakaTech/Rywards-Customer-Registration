@@ -18,8 +18,8 @@ export default function Points({}: PointsProps) {
           <div className={styles.pointsSubtitle} id="Download">
             <p>Multiple earning options, numerous redeeming options</p>
             <p className={styles.text}>
-              Collect from outlets and convert them into gift cards of your
-              choice.
+              Collect Rywards Points from Rywards Registered Outlets and convert
+              them into Gift Cards of your choice.
             </p>
           </div>
           <div className={styles.pointsLink}>
