@@ -42,6 +42,11 @@ export default function Footer({}: FooterProps) {
               For Merchant
             </Link>
           </div>
+          <div className={styles.link}>
+            <Link href="/privacypolicy" passHref>
+              Privacy Policy
+            </Link>
+          </div>
           <div className={styles.socialLinks}>
             <div className={styles.socialLink}>
               <Link href="https://www.linkedin.com/company/rywards" passHref>
