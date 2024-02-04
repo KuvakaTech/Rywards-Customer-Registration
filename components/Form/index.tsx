@@ -8,7 +8,7 @@ export default function Form({}: FormProps) {
   return (
     <div className={styles.container}>
       <form
-        action="https://formsubmit.co/ps@rywards.com"
+        action=""
         method="POST"
         className={styles.form}
       >
