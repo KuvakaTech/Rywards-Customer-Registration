@@ -10,7 +10,7 @@ export default function Contact() {
       <main className={styles.main}>
         <div className={styles.contact}>
           <form
-            action="https://formsubmit.co/57051ee9bdfbb9ee477c9f71c176a41d"
+            action=""
             method="POST"
             className={styles.form}
           >
